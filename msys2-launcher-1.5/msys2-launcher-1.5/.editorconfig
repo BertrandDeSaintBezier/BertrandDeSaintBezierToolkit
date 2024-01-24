@@ -1,4 +1,0 @@
-root = true
-
-[*.{c,h,rc}]
-indent_style = tab
