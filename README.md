@@ -4,7 +4,7 @@
 
 #### MSYS2 Shell
 
-Download GCC and the Toolchain for all groups. This will take a minute to download and finish installing.
+After installing MSYS2, download gcc and the toolchains for all groups. This will take a minute to download and finish installing.
 
 - Mingw-w64 GCC : `pacman -S mingw-w64-ucrt-x86_64-gcc`
 - Mingw-w64 Toolchain : `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
