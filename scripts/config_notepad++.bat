@@ -1,1 +1,0 @@
-xcopy /s ..\config\Solarized-light.xml %AppData%\Notepad++\Themes
