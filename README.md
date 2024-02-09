@@ -22,4 +22,6 @@ First off, a decent terminal is required. Don't go with GitBash/Git for Windows 
 
 Run `config_neovim.bat` to create all the necessary config files. By default, this will copy the contents of `config_files/nvim` into `%LOCALAPPDATA%/nvim`.
 
-Start `nvim .` from the Windows Terminal and run `:PackerSync` to retrieve plugins.
+run the command to clone packer on your machine : `git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"`
+
+Start `nvim .` from the Windows Terminal. Navigate to the `packer.lua` file and `:so`, then run `:PackerSync` to retrieve plugins.
