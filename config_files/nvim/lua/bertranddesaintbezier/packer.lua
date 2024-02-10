@@ -7,11 +7,11 @@ return require('packer').startup(function(use)
 		-- Packer can manage itself
 		use 'wbthomason/packer.nvim'
 
-		use "rebelot/kanagawa.nvim"
+        use "rebelot/kanagawa.nvim"
 
-		use {
+        use {
 				'VonHeikemen/lsp-zero.nvim',
-				branch = 'v3.x',
+				branch = 'v2.x',
 				requires = {
 						--- Uncomment the two plugins below if you want to manage the language servers from neovim
 						-- {'williamboman/mason.nvim'},
@@ -29,5 +29,5 @@ return require('packer').startup(function(use)
 				"williamboman/mason.nvim",
 				"williamboman/mason-lspconfig.nvim",
 				"neovim/nvim-lspconfig",
-		}
+		} 
 end)
